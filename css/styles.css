@@ -5,13 +5,20 @@ body {
   margin: 20px 20px 0px 20px;
 }
 
+body div {
+  min-height: 125px;
+  padding: 20px;
+  border: solid #ffffff;
+  border-width: 3px;
+}
+
 h1 {
   font-size: 42px;
   text-align: center;
   padding: 15px;
 }
 
-h2 {
+div h2 {
   font-size: 30px;
   color: #0d0d0d;
 }
@@ -27,13 +34,6 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-body div {
-  min-height: 125px;
-  padding: 20px;
-  border: solid #ffffff;
-  border-width: 3px;
 }
 
 .introduction {
